@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micael Barretto - Contato</title>
+    <meta name="description" content="Entre em contato com Micael Barretto. Preencha o formulário ou encontre-me nas redes sociais.">
+    <meta name="keywords" content="Contato, Formulário, Front-End, Micael Barretto">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Micael Barretto</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfólio</a></li>
+                <li class="nav-item"><a href="habilidades.html" class="nav-link">Habilidades</a></li>
+                <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <p class="section-subtitle">Tem alguma pergunta ou quer trabalhar comigo? Ficarei feliz em responder.</p>
+
+            <div class="contact-container">
+                <div class="form-column">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="seu.email@exemplo.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="6" placeholder="Digite sua mensagem aqui..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                        <p id="form-message"></p>
+                    </form>
+                </div>
+
+                <div class="info-column">
+                    <h3>Minhas Informações</h3>
+                    <p>Estou sempre aberto a novas oportunidades e colaborações. Sinta-se à vontade para me contatar.</p>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>micael.barretto@email.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>São Paulo, Brasil</span>
+                    </div>
+
+                    <h3 class="social-heading">Redes Sociais</h3>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/seu-usuario" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/seu-usuario" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://instagram.com/seu-usuario" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="https://github.com/seu-usuario" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/seu-usuario" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://instagram.com/seu-usuario" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2025 Micael Barretto. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

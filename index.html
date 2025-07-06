@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micael Barretto - Desenvolvedor Web</title>
+    <meta name="description" content="Portfólio pessoal de Micael Barretto, desenvolvedor web especializado em Front-End.">
+    <meta name="keywords" content="Desenvolvedor, Web, Front-End, HTML, CSS, JavaScript, Portfólio, Micael Barretto">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Micael Barretto</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfólio</a></li>
+                <li class="nav-item"><a href="habilidades.html" class="nav-link">Habilidades</a></li>
+                <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="hero-intro">Olá, pode me chamar de Micael.</p>
+                    <h1>Eu construo experiências digitais para a web.</h1>
+                    <p class="subtitle" id="typing-effect"></p>
+                    <div class="hero-buttons">
+                        <a href="portfolio.html" class="btn btn-primary">Meus Projetos</a>
+                        <a href="contato.html" class="btn btn-secondary">Entrar em Contato</a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://github.com/seu-usuario" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/seu-usuario" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Foto de Micael Barretto">
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="container">
+            <div class="sobre-content">
+                <h2>Sobre Mim</h2>
+                <p>Sou um desenvolvedor web apaixonado por criar interfaces bonitas e funcionais. Com experiência sólida em HTML, CSS e JavaScript, busco transformar ideias em realidade digital, sempre focado na experiência do usuário e na qualidade do código.</p>
+                <p>Acredito que a tecnologia tem o poder de resolver problemas e conectar pessoas, e é isso que me motiva a aprender e evoluir constantemente na minha carreira.</p>
+                <a href="curriculo-micael-barretto.pdf" class="btn" target="_blank">Download CV</a>
+            </div>
+        </section>
+
+        <section id="featured-projects">
+            <div class="container">
+                <h2>Projetos em Destaque</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-card">
+                        <img src="https://images.pexels.com/photos/3889987/pexels-photo-3889987.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Imagem de um site de viagens">
+                        <div class="portfolio-card-content">
+                            <h3>Site de Viagens</h3>
+                            <p>Website institucional responsivo para uma agência de viagens.</p>
+                            <div class="tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <div class="links">
+                                <a href="#" class="btn-portfolio" target="_blank">Ver Demo</a>
+                                <a href="portfolio.html" class="btn-portfolio codigo" target="_blank">Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-card">
+                        <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Imagem de uma landing page">
+                        <div class="portfolio-card-content">
+                            <h3>Landing Page</h3>
+                            <p>Página de captura para lançamento de um produto digital.</p>
+                            <div class="tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                            </div>
+                            <div class="links">
+                                <a href="#" class="btn-portfolio" target="_blank">Ver Demo</a>
+                                <a href="portfolio.html" class="btn-portfolio codigo" target="_blank">Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="see-all-btn">
+                    <a href="portfolio.html" class="btn">Ver todos os projetos</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="cta">
+            <div class="container">
+                <h3>Vamos trabalhar juntos?</h3>
+                <p>Se você tem um projeto em mente ou apenas quer dizer oi, não hesite em me contatar.</p>
+                <a href="contato.html" class="btn btn-light">Enviar uma Mensagem</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="https://github.com/seu-usuario" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/seu-usuario" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://instagram.com/seu-usuario" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2025 Micael Barretto. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
